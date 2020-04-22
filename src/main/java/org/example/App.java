@@ -60,7 +60,6 @@ public final class App {
         return det;
     }
 
-
     public static double[][] sum(double[][] firstMatrix, double[][] secondMatrix) {
         double[][] result = new double[firstMatrix.length][secondMatrix[0].length];
         for (int row = 0; row < result.length; row++) {
